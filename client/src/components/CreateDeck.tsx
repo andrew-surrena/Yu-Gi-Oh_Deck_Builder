@@ -26,7 +26,7 @@ const CreateDeck = () => {
         ], // Refetch decks query with the username variable
         onCompleted: () => {
             setShowModal(false);
-            console.log("Deck created successfully!");
+            // console.log("Deck created successfully!");
         },
     });
 

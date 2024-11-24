@@ -16,7 +16,7 @@ const UpdateDeck = ({ deckId }: { deckId: string }) => {
         type: "main",
         user: userId
     });
-console.log('This is the deck:', deckId);
+// console.log('This is the deck:', deckId);
 
     const [updateDeck, { loading, error }] = useMutation(UPDATE_DECK_DETAILS, {
         refetchQueries: [
@@ -27,7 +27,7 @@ console.log('This is the deck:', deckId);
         ], // Refetch decks query
         onCompleted: () => {
             setShowModal(false);
-            console.log("Deck updated successfully!");
+            // console.log("Deck updated successfully!");
         },
     });
 

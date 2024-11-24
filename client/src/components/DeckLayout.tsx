@@ -31,7 +31,7 @@ const DeckList: React.FC<DeckListProps> = ({ decks }) => {
 
     const [group1, group2, group3] = splitIntoThreeGroups(decks || []);
 
-console.log(decks);
+// console.log(decks);
 
 
     return (

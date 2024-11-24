@@ -17,7 +17,7 @@ const UserPage = () => {
   // if (userError) return <p>Error loading user data: {userError.message}</p>;
 
   const { username } = data?.me || {};
-  console.log(username);
+  // console.log(username);
 
   // Check if user is logged in
   const isLoggedIn = Auth.loggedIn(); // Assuming this method returns true/false

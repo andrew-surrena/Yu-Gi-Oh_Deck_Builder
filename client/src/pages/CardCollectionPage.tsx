@@ -111,7 +111,7 @@ const CardCollectionPage: React.FC = () => {
             </Card>
         );
     }
-console.log("card data:",cards);
+// console.log("card data:",cards);
 
     return (
         <>

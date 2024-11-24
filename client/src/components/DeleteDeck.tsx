@@ -24,7 +24,7 @@ const DeleteDeck: React.FC<DeleteDeckProps> = ({ deckId, deckName }) => {
   ], // Refetch all decks after deleting
     onCompleted: () => {
       setShowModal(false); // Close modal on success
-      console.log('Deck deleted successfully');
+      // console.log('Deck deleted successfully');
     },
     onError: (error) => {
       console.error('Error deleting deck:', error.message); // Handle errors

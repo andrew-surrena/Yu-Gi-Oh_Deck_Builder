@@ -13,14 +13,14 @@ const RemoveCardFromCollection: React.FC<RemoveCardProps> = ({ cardId, onCardRem
 
   const handleRemoveCard = async () => {
     try {
-        console.log("this is the card Id:", cardId);
+        // console.log("this is the card Id:", cardId);
         
       const { data } = await deleteCardFromUser({
         variables: { cardId },
       });
 
       if (data) {
-        console.log(`Card with ID ${cardId} removed from collection`);
+        // console.log(`Card with ID ${cardId} removed from collection`);
         // Trigger any callback to update the UI
         if (onCardRemoved) {
           onCardRemoved();

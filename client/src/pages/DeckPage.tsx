@@ -22,7 +22,7 @@ const DeckPage: React.FC = () => {
 
     useEffect(() => {
         if (deckDataQuery) {
-            console.log('Deck Data Query:', deckDataQuery);
+            // console.log('Deck Data Query:', deckDataQuery);
             setDecks(deckDataQuery?.user.allDecks || []);
         }
     }, [deckDataQuery]);

@@ -9,7 +9,7 @@ interface CardListProps {
 }
 
 const CardList: React.FC<CardListProps> = ({ cards }) => {
-    console.log('cards being rendered in CardList:',cards);
+    // console.log('cards being rendered in CardList:',cards);
     return (
     <Row>
         {cards.map((card) => {

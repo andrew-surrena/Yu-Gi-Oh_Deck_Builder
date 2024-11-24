@@ -35,7 +35,7 @@ const CardtoDeck: React.FC<CardtoDeckProps> = ({ card }) => {
 
     const handleSubmit = async () => {
         let cardId = card._id;
-        console.log('here is the card data:', card);
+        // console.log('here is the card data:', card);
     
         // Save new card if needed
         if (!cardId && selectedOption) {
@@ -58,18 +58,18 @@ const CardtoDeck: React.FC<CardtoDeckProps> = ({ card }) => {
             cardId = data.addCardToUser._id;
         }
     
-        console.log(`here is the deck data:`, deckDataQuery);
+        // console.log(`here is the deck data:`, deckDataQuery);
     
         // Find the selected deck by ID
         const selectedDeck = deckDataQuery?.user.allDecks.find((deck: Decks) => deck._id === selectedDeckId);
-        console.log(`here is the selected deck:`, selectedDeck);
+        // console.log(`here is the selected deck:`, selectedDeck);
     
         if (selectedOption === '1') {
             setStatusMessage("Card Added To Collection");
-            console.log('Card Saved to My Collection');
+            // console.log('Card Saved to My Collection');
         } else if (selectedOption === '2' && selectedDeck) {
-            console.log(`here is the deckId: ${selectedDeck._id}`);
-            console.log(`here is the cardId: ${cardId}`);
+            // console.log(`here is the deckId: ${selectedDeck._id}`);
+            // console.log(`here is the cardId: ${cardId}`);
     
             await addCardToDeckMutation({
                 variables: {
@@ -78,7 +78,7 @@ const CardtoDeck: React.FC<CardtoDeckProps> = ({ card }) => {
                 },
             });
             setStatusMessage("Card Added to Deck");
-            console.log('Card added to existing deck successfully');
+            // console.log('Card added to existing deck successfully');
         } else {
             console.error('No deck selected');
             setStatusMessage(null);

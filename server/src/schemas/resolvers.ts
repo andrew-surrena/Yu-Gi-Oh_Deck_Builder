@@ -154,10 +154,10 @@ const resolvers = {
 // note: we switched to $push from $addtoset to have duplicates cards in their deck. For v2 we should consider add to set when we figure out the authenticating the card that exist irl
         addCardToDeck: async (_parent: any, { cardId, deckId }: AddCardToDeckArg, context: any) => {
             if (context.user) {
-                console.log('here is the server cardId:', cardId);
-                console.log('here is the server deckId:', deckId);
+                // console.log('here is the server cardId:', cardId);
+                // console.log('here is the server deckId:', deckId);
                 const cardToAdd = await Card.findById(cardId);
-                console.log('here is the server card after findById:', cardToAdd);
+                // console.log('here is the server card after findById:', cardToAdd);
                 return await Deck.findOneAndUpdate(
                     { _id: deckId },
                     { $push: { cards: cardToAdd, } },

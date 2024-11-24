@@ -15,22 +15,22 @@ class AuthService {
 
     getUsername() {
         const token = this.getToken();
-        console.log('Token:', token); // Debugging
+        // console.log('Token:', token); // Debugging
         if (!token) return null;
 
         const decoded = jwtDecode<ExtendedJwt>(token);
-        console.log('Decoded JWT:', decoded); // Debugging
+        // console.log('Decoded JWT:', decoded); // Debugging
         return decoded?.data?.username || null;
     }
 
     // New method to get user ID from token
     getUserId() {
         const token = this.getToken();
-        console.log('Token:', token); // Debugging
+        // console.log('Token:', token); // Debugging
         if (!token) return null;
 
         const decoded = jwtDecode<ExtendedJwt>(token);
-        console.log('Decoded JWT:', decoded); // Debugging
+        // console.log('Decoded JWT:', decoded); // Debugging
         return decoded?.data?._id || null; // Extract user ID
     }
 
