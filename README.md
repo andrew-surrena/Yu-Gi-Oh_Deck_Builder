@@ -39,4 +39,4 @@ At the moment we are looking to expand the functionality of the app for version 
 none at the moment
 
 ## Contact Us
-For more information about our project please visit our Github Repo https://github.com/andrew-surrena/Yu-Gi-Oh_Deck_Builder. Check out our other projects by vising our github at dafnefluna or email us at dafne.faviola.luna@gmail.com
+For more information about our project please visit our Github Repo https://github.com/andrew-surrena/Yu-Gi-Oh_Deck_Builder. Check out our other projects by vising our github at andrew-surrena or email us at andrewsurrena@gmail.com
