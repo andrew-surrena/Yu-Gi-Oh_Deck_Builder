@@ -2,18 +2,23 @@
 
 ## Description
 
-This application is for the avid Yu-Gi-Oh collector and dueler. Our application lets you digitize your physical card collection so you can make decks easier. This way your card collection will stay pristine and neat until you need to pull them out for a duel. Checkout the link to use the application [insert link here]
+This application is for the avid Yu-Gi-Oh collector and dueler. Our application lets you digitize your physical card collection so you can make decks easier. This way your card collection will stay pristine and neat until you need to pull them out for a duel. Checkout the link to use the application [https://yu-gi-oh-deck-builder.onrender.com]
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Contribute](#how-to-contribute)
+- [Tests](#tests)
+- [Credits](#credits)
+- [Contact](#contact-us)
 
 ## Installation
 
-To use this application as intended you can visit the deployed link. If you'd like to use this code as a starter for your own project you can clone this repo into your local machine. Begin by running 'npm i' in your root. For good measure run 'npm i" in your client and server. There are various packages to familiarize yourself with such as: React Bootstrap, ANT Design, MongoDB, Mongoose, and Apollo to handle the major functionalities of the application. Look a the package.json in the root, client, and server. To fully see the complete app you will 'npm run build' and after you will 'npm run start:dev".
+To use this application as intended you can visit the deployed link - [click here](https://yu-gi-oh-deck-builder.onrender.com) 
+
+If you'd like to use this code as a starter for your own project you can clone this repo into your local machine. Begin by running 'npm i' in your root. For good measure run 'npm i" in your client and server. There are various packages to familiarize yourself with such as: React Bootstrap, ANT Design, MongoDB, Mongoose, and Apollo to handle the major functionalities of the application. Look a the package.json in the root, client, and server. To fully see the complete app you will 'npm run build' and after you will 'npm run start:dev".
 
 ## Usage
 
@@ -40,8 +45,32 @@ At the moment we are looking to expand the functionality of the app for version 
 
 ## Tests
 
-We use github actions to perform a lint check for formatting before merging to our develop branch.
+We use github actions to perform a lint check for formatting code base before merging to our develop branch.
+
+## Credits
+
+Special thanks to the following instructors for their help:
+* Leif Hetland
+* Michael Hodges
+* Carlin Shaw
+* Daniel Ceballos
+
+<br/>Created in collaboration with edX Coding Bootcamp
+
+The following technologies were used:
+* GitHub Actions
+* Bootstrap
+* Ant Design
+* Render
+* MongoDB
+* Mongoose ODB
+* Express
+* TypeScript
+* Node
 
 ## Contact Us
 
-For more information about our project please visit our Github Repo <https://github.com/andrew-surrena/Yu-Gi-Oh_Deck_Builder>. Check out our other projects by vising our githubs: at dafnefluna, andrew-surrena, SirrBarnes.
+For more information about our project please visit our Github Repo <https://github.com/andrew-surrena/Yu-Gi-Oh_Deck_Builder>. Check out our other projects by vising our githubs:
+* [dafnefluna](https://github.com/dafnefluna)
+* [andrew-surrena](https://github.com/andrew-surrena)
+* [SirrBarnes](https://github.com/SirrBarnes)
